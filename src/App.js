@@ -7,6 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         Cory Dunn Portfolio
+        <p>Adding something to test heroku deployment</p>
       </div>
     );
   }
