@@ -5,8 +5,8 @@ import {Router, Route, browserHistory} from 'react-router';
 import './index.css';
 
 ReactDOM.render(
-  <ROUTER history={browserHistory}>
-    <ROUTE path='/' component={APP} />
-  </ROUTER>,
+  <Router history={browserHistory}>
+    <Route path='/' component={App} />
+  </Router>,
   document.getElementById('root')
 );
