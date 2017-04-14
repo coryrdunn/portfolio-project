@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from '../Nav';
 
 class Resume extends React.Component {
     constructor(props) {
@@ -9,7 +10,10 @@ class Resume extends React.Component {
 
     render() {
         return (
-            <div>This is the resume page</div>
+            <div>
+                <Nav />
+                <h1>Resume</h1>
+            </div>
         )
     }
 };
