@@ -12,7 +12,9 @@ class Resume extends React.Component {
         return (
             <div>
                 <Nav />
-                <h1>Resume</h1>
+                <div className="titleBar">
+                    <h1>Resume</h1>
+                </div>
             </div>
         )
     }

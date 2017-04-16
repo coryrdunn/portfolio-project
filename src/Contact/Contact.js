@@ -12,7 +12,9 @@ class Contact extends React.Component {
         return (
             <div>
                 <Nav />
-                <h1>Contact Me</h1>
+                <div className="titleBar">
+                    <h1>Contact Me</h1>
+                </div>
             </div>
         )
     }
