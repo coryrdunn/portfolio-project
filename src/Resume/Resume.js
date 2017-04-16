@@ -16,6 +16,6 @@ class Resume extends React.Component {
             </div>
         )
     }
-};
+}
 
 export default Resume;

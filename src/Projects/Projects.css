@@ -1,0 +1,38 @@
+.titleBar {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.screenshots {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projectContainer {
+    border: 1px solid #000;
+    width: 95%;
+    margin: 0px auto 15px;
+    background: #efefef;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.projectContainer .projectHeader {
+    margin: 5px;
+}
+
+.projectContainer .projectTitle {
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.projectContainer .projectDetails {
+    text-align: left;
+}
+
+.projectContainer a {
+    display: block;
+    color: #0af;
+}

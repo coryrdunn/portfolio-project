@@ -1,5 +1,6 @@
 import React from 'react';
 import './Nav.css';
+/*import Link from 'react-router';*/
 
 class Nav extends React.Component {
     constructor(props) {
@@ -17,6 +18,11 @@ class Nav extends React.Component {
                         <a className="nav-toggle" href="#">
                             <span className="trigger">&#9776;</span>
                             <ul>
+{/*                                <li><Link to='/'>Home</Link></li>
+                                <li><Link to='/about'>About</Link></li>
+                                <li><Link to='/projects'>Projects</Link></li>
+                                <li><Link to='/resume'>Resume</Link></li>
+                                <li><Link to='/contact'>Contact</Link></li>*/}
                                 <li>Home</li>
                                 <li>About</li>
                                 <li>Projects</li>
@@ -29,6 +35,6 @@ class Nav extends React.Component {
             </header>
         )
     }
-};
+}
 
 export default Nav;
