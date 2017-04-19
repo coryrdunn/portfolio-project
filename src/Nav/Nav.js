@@ -23,11 +23,11 @@ class Nav extends React.Component {
                                 <li><Link to='/projects'>Projects</Link></li>
                                 <li><Link to='/resume'>Resume</Link></li>
                                 <li><Link to='/contact'>Contact</Link></li>*/}
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/about">About</a></li>
-                                <li><a href="/projects">Projects</a></li>
-                                <li><a href="/resume">Resume</a></li>
-                                <li><a href="/contact">Contact</a></li>
+                                <li><a href="/portfolio-project/#/">Home</a></li>
+                                <li><a href="/portfolio-project/#/about">About</a></li>
+                                <li><a href="/portfolio-project/#/projects">Projects</a></li>
+                                <li><a href="/portfolio-project/#/resume">Resume</a></li>
+                                <li><a href="/portfolio-project/#/contact">Contact</a></li>
                             </ul>
                         </div>
                     </nav>
