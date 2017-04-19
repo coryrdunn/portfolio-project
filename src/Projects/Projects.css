@@ -16,6 +16,8 @@
     background: #efefef;
     padding: 5px;
     border-radius: 10px;
+    box-shadow: 5px 5px 15px;
+    text-align: center;
 }
 
 .projectContainer .projectHeader {
@@ -28,11 +30,43 @@
     padding: 5px;
 }
 
-.projectContainer .projectDetails {
-    text-align: left;
-}
-
-.projectContainer a {
+.projectContainer .projectLinks {
     display: block;
     color: #0af;
+}
+
+.ssVert {
+    width: 70px;
+    height: 100px;
+}
+
+.ssHoriz {
+    width: 140px;
+    height: 100px;
+}
+
+.socialLink {
+    display: inline-block;
+}
+
+.socialIcon {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+.projectSubTitle {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.projectCompanyTitle {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.projectList {
+    text-align: left;
 }

@@ -91,5 +91,11 @@
 
 li a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
+}
+
+@media screen and (min-width: 560px) {
+    li a {
+        color: #fff;
+    }
 }
