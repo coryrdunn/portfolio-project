@@ -15,7 +15,7 @@ class Nav extends React.Component {
                 <div className="constrain">
                     <h1>Cory R. Dunn</h1>
                     <nav className="navigation">
-                        <a className="nav-toggle" href="#">
+                        <div className="nav-toggle">
                             <span className="trigger">&#9776;</span>
                             <ul>
 {/*                                <li><Link to='/'>Home</Link></li>
@@ -29,7 +29,7 @@ class Nav extends React.Component {
                                 <li><a href="/resume">Resume</a></li>
                                 <li><a href="/contact">Contact</a></li>
                             </ul>
-                        </a>
+                        </div>
                     </nav>
                 </div>
             </header>

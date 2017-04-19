@@ -41,9 +41,8 @@ class Projects extends React.Component {
                             <em>Java</em>
                         </div>
                         <div className="screenshots">
-                            <img src="../Images/downtownSS1.png" alt="Calculator Project" />
-                            <img src="../Images/downtownSS2.png" alt="Calculator Project" />
-                            <img src="../Images/downtownSS3.png" alt="Calculator Project" />
+                            <img src="https://lh3.googleusercontent.com/hCrRTph4tFcWy0xh0OKZkdQaDaJmyBl5PMF9rTwwAmGVYbHs80F4R7IYNybbSN4OgoY=h900-rw" alt="Calculator Project" />
+                            <img src="https://lh3.googleusercontent.com/QV5XWdO9KsMbYXjnFNVzpvIwacadYpcJlblTXyV-YPkK4HSPMOuuDwi_NkktbMaLxTE=h900-rw" alt="Calculator Project" />
                         </div>
                         <p className="projectDetails">Android mobile app that allows users to perform basic four function calculations.
                         </p>
